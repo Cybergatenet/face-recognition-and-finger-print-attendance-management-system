@@ -1,0 +1,47 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 100%!important;
+  max-height: 45vh!important;
+  background-color: yellow;
+}
+header{
+  background-color: green;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 100%;
+}
+.button{
+  border-radius: 13px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.button{
+  background-color: white; 
+  color:black;
+  border: 2px solid green;
+}
+
+
+.button:active {
+  background-color: yellow; 
+}
+#parent1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
